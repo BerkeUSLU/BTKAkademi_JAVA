@@ -12,5 +12,13 @@ public class Main {
             i+= 2;
         }
         System.out.println("While döngüsü bitti!");
+        System.out.println("*****************");
+        //Do-While
+        int j = 100;
+        do {
+            System.out.println(j);
+            j+=2;
+        }while (j < 10);
+        System.out.println("Do-While döngüsü bitti!");
     }
 }
