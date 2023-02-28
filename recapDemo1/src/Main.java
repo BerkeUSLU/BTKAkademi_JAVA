@@ -1,10 +1,9 @@
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int sayi1 = 266;
-        int sayi2 = 25;
-        int sayi3 = 26;
+        int sayi1 = 6;
+        int sayi2 = 3;
+        int sayi3 = 5;
         int enBuyuk = sayi1;
 
         if (enBuyuk < sayi2) {
