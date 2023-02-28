@@ -1,6 +1,7 @@
 public class Main {
 
-    // A program that uses multiDimensionalArray and a loop created to search them in order.
+    // This program uses multi-dimensional array.
+    // A loop is created to search given data.
     public static void main(String[] args) {
         String[][] sehirler = new String[3][3];
 
