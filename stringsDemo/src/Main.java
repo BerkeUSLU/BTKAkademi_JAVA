@@ -9,7 +9,7 @@ public class Main {
 
         System.out.println("5.eleman : " + mesaj.charAt(4));
 
-        System.out.println(mesaj.concat( " yaşasın :)"));
+        System.out.println(mesaj.concat(" yaşasın :)"));
 
         System.out.println(mesaj.startsWith("B"));
 
@@ -17,7 +17,7 @@ public class Main {
 
         char[] karakterler = new char[5];
 
-        mesaj.getChars(0,5,karakterler,0);
+        mesaj.getChars(0, 5, karakterler, 0);
 
         System.out.println(karakterler);
 
