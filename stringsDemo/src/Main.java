@@ -25,5 +25,18 @@ public class Main {
 
         System.out.println(mesaj.lastIndexOf("a"));
 
+        System.out.println("***********************************************");
+
+        String yeniMesaj = mesaj.replace(' ', '-');
+        System.out.println(yeniMesaj);
+        System.out.println(mesaj.substring(2,5));
+
+        for (String kelime : mesaj.split(" ")) {
+            System.out.println(kelime);
+        }
+
+        System.out.println(mesaj.toLowerCase());
+        System.out.println(mesaj.toUpperCase());
+
     }
 }
