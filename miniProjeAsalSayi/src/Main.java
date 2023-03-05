@@ -12,7 +12,7 @@ public class Main {
         //System.out.println(remainder);
 
         if (number <= 2) {
-            System.out.println("Geçersiz bir sayı giriş yaptının!");
+            System.out.println("Geçersiz bir sayı girişi yaptınız!");
             System.out.print("Program sonlandırıldı!");
             System.exit(1);
         }
